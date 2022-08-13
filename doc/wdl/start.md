@@ -7,12 +7,12 @@ An config JSON file includes all input parameters and genome reference index dir
 
 ## Start
 - Setup configure file.
-single sample:
- Copy [config.json](../../example/wdl/config.json) from the **example** to the analysis directory and replace it with the real path and fastq path. 
- Copy [run.sh](../../example/wdl/run.sh) from the **example** to the analysis directory and replace it with the real path.
+<br />single sample:
+<br /> Copy [config.json](../../example/wdl/config.json) from the **example** to the analysis directory and replace it with the real path and fastq path. 
+<br /> Copy [run.sh](../../example/wdl/run.sh) from the **example** to the analysis directory and replace it with the real path.
 <br /> multi sample:
- "sample.txt" of sample list. [refer](../list.md)
- /mgi/miniconda3/envs/DNBC4tools/bin/python /Local/path/to/pipeline/scripts/creat_wdl_json.py 
+<br /> "sample.txt" of sample list. [refer](../list.md)
+<br /> /mgi/miniconda3/envs/DNBC4tools/bin/python /Local/path/to/pipeline/scripts/creat_wdl_json.py 
 
 - Run the pipeline
 ```shell

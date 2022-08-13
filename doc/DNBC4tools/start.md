@@ -43,11 +43,13 @@ If used in the delivery cluster task, the full path is required.
 <br /> **--no_bam** By default, anno_decon_sort.bam will be moved to the result directory output. If this parameter is selected, this operation will not be performed.
 <br /> **--dry** The code of the step is printed directly without analysis.
 <br />
+
 - **DNBC4tools data** Analyze data quality control and data comparison annotation to generate final.bam and raw_matrix, the corresponding directory is 01.data.
 - **DNBC4tools count** Analyze and filter empty droplets and size magnetic beads matching, saturation curve and generate filter_matrix, the corresponding directory is 02.count.
 - **DNBC4tools analysis** Use filter_matrix for data filtering and cluster annotation. Provide more parameter modifications. If you need to adjust the analysis results, you can use analysis alone to analyze and then use run "--process report" to generate a report. The corresponding directory is 03.analysis.
 - **DNBC4tools report** Generate result files and result reports, the corresponding directories are 04.report and output.
 <br />
+
 - **DNBC4tools multi** To generate multiple shells for multiple samples and run them manually, all samples need to use the same reference gene and annotation files.
 <br /> **--list** Sample list of this parameter. [refer](../list.md)
 

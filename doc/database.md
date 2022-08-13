@@ -62,6 +62,7 @@ $DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
 </b>
  http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/GRCh38.primary_assembly.genome.fa.gz
  http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.primary_assembly.annotation.gtf.gz
+</b>
 - **mouse(GRCm38)** 
 </b>
  http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M23/GRCm38.primary_assembly.genome.fa.gz

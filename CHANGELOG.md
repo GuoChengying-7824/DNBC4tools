@@ -1,23 +1,13 @@
 ### **version 2.0.4**
-
 `2022.08.13`
-
 - Update： Add docker version.
-
 - Fix： 
-
   There is a problem with the annotation logic statistics in the previous version, and this version has been corrected.
-
   Fixed some description in html.
-  
   The previous version was too strict with the format of gtf file, we fix it.
-
-It is recommended to upgrade this version, git clone and then update the environment.
-
-
+- It is recommended to upgrade this version, git clone and then update the environment.
 
 ### **version 2.0.0**
-
 `2022.06.20`
 - Update： The software is updated to version 2.0, which can use wdl process and command line mode.
 - Fix： The process interruption caused by empty beads similarity analysis, and errors in QC and clustering when the number of cells is small.

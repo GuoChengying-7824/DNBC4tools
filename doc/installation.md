@@ -9,7 +9,7 @@ cd DNBelab_C_Series_HT_scRNA-analysis-software
 ```
 
 ### 2. Create DNBC4tools environment
-- Install DNBC4tools
+- Install DNBC4tools(Requires miniconda3 to be installed in advance)
 ```shell
 source /mgi/miniconda3/bin/activate
 conda env create -f DNBC4tools.yaml -n DNBC4tools

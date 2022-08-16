@@ -33,4 +33,7 @@ source activate DNBC4tools
 conda env update -f DNBC4tools.yaml
 ```
 only update the python package dnbc4tools use: 
+```shell
+source activate DNBC4tools
 pip install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple dnbc4tools
+```

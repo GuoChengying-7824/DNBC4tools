@@ -21,19 +21,19 @@ Rscript -e "devtools::install_github(c('chris-mcginnis-ucsf/DoubletFinder','ggjl
 ```
 
 ### 3. Download Cromwell
-- Download Cromwell and store in **wdl**
+- Download Cromwell and store in the **wdl** directory
 ```shell
 wget https://github.com/broadinstitute/cromwell/releases/download/35/cromwell-35.jar
 ```
 
 ### 4. Update
-- Update all processes to use git clone the repo，and update conda environment
+- git clone the repo，and update conda environment
 ```shell
 source activate DNBC4tools
 conda env update -f DNBC4tools.yaml
 ```
 
-- you also can only update the python package dnbc4tools
+- git clone the repo，only update the python package dnbc4tools
 
 ```shell
 source activate DNBC4tools

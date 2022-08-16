@@ -33,7 +33,7 @@ source activate DNBC4tools
 conda env update -f DNBC4tools.yaml
 ```
 
-- git clone the repo，only update the python package dnbc4tools
+- git clone the repo，and only update the python package dnbc4tools
 
 ```shell
 source activate DNBC4tools

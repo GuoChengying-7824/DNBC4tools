@@ -1,6 +1,6 @@
 # **FAQ**
 - **Q1: Is it possible to adjust the number of cells acquired if the number of cells reported in the results is not what I expected?**
-* **A1**: The default parameter results are more credible, but if the curve is poor, it will affect the software's judgment of empty droplets.If you are really not satisfied with the default results, you can use the following methods. Use forcecells directly to determine the number of beads.The analysis can be done without analyzing the "data" step, adding parameters "--process count,analysis,report".
+</p> **A1**: The default parameter results are more credible, but if the curve is poor, it will affect the software's judgment of empty droplets.If you are really not satisfied with the default results, you can use the following methods. Use forcecells directly to determine the number of beads.The analysis can be done without analyzing the "data" step, adding parameters "--process count,analysis,report".
 
 - **Q2: How the mitochondrial content in the results report is obtained?**
 **A2**: The "Mitochondria ratio" is the ratio of the chromosomally named chrM of the gene identified in the alignment at the time of alignment and annotation. The violin plot of mitochondria is determined by the parameter "mtgenes" or the default gene name prefixed with MT or mt content. Due to the filtering of empty droplets, there will be inconsistencies between these two ratios.

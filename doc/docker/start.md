@@ -43,7 +43,8 @@ DNBC4tools mkref --action mkref --ingtf /result/gene.gtf \
 
 ```shell
 ### DNBC4tools run
-docker run -P -v $Database_LOCAL:/database -v $Rawdata_LOCAL:/data -v $Result_LOCAL:/result lishuangshuang3/dnbc4tools DNBC4tools run --name $name \
+docker run -P -v $Database_LOCAL:/database -v $Rawdata_LOCAL:/data -v $Result_LOCAL:/result lishuangshuang3/dnbc4tools \
+DNBC4tools run --name $name \
 --cDNAfastq1 /data/$cDNA_1_R1.fq.gz,/data/$cDNA_2_R1.fq.gz --cDNAfastq2 /data/$cDNA_1_R2.fq.gz,/data/$cDNA_2_R2.fq.gz \
 --oligofastq1 /data/$oligo_1_R1.fq.gz,/data/$cDNA_2_R1.fq.gz --oligofastq2 /data/$oligo_1_R2.fq.gz,/data/$cDNA_2_R2.fq.gz \
 --starIndexDir /database --gtf /database/gene.gtf --species $species

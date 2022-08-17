@@ -23,8 +23,11 @@ installation manual [here](./doc/installation.md)
 ## Database
 Create database manual [here](./doc/database.md)
 ## Start
-**WDL version**: **[WDL](./doc/wdl/start.md)**
+**WDL version: Customize the config file, use wdl to analysis**
+- **[WDL](./doc/wdl/start.md)**
 
-**Command line version**: **[DNBC4tools](./doc/DNBC4tools/start.md)**
+**Command line version: Using the DNBC4tools command line**
+- **[DNBC4tools](./doc/DNBC4tools/start.md)**
 
-**Docker**: **[Docker](./doc/docker/start.md)**
+**Docker**
+- **[Docker](./doc/docker/start.md)**

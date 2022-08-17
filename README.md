@@ -18,10 +18,10 @@ An open source and flexible pipeline to analysis high-throughput DNBelab C Serie
 - **wdl**  WDL pipeline.
 
 ## Installation
-installation manual [here](./doc/installation.md)
+installation manual [**here**](./doc/installation.md)
 
 ## Database
-Create database manual [here](./doc/database.md)
+Create database manual [**here**](./doc/database.md)
 ## Start
 **WDL version: Customize the config file, use wdl to analysis**
 - **[WDL](./doc/wdl/start.md)**

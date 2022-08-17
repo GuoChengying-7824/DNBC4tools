@@ -3,7 +3,8 @@
 ### **View gene_type or gene_biotype of the GTF**
 ```shell
 $DNBC4tools mkref --action stat --ingtf gene.gtf --type gene_type --outstat gtf_type.txt
-
+```
+```shell
 $cat gtf_type.txt
 
 Type	Count

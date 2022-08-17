@@ -4,7 +4,7 @@
 ```shell
 $DNBC4tools mkref --action stat --ingtf gene.gtf --type gene_type --outstat gtf_type.txt
 ```
-check the gtf type 
+check gene type
 ```shell
 $cat gtf_type.txt
 

@@ -1,5 +1,5 @@
 ### **2.0.4**
-`2022.08.13`
+`2022.08.17`
 - Update： Add docker version.
 - Fix： There is a problem with the annotation logic statistics in the previous version, and this version has been corrected.
 - Fix： Fixed some description in html.

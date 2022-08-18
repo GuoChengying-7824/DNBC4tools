@@ -5,7 +5,7 @@
 - Fix： Fixed some description in html.
 - Fix： The previous version was too strict with the format of gtf file, we change it.If there is no "gene_name" in the gtf file, "gene_id" is used by default, and if there is no "transcript_name", "transcript_id" is used by default.
 - Fix： Adjusted umi correction.
-- It's recommended to upgrade this version, git clone the repo and then update the emvironment by pip install --upgrade dnbc4tools.
+- It's recommended to upgrade this version, git clone the repo and then update the emvironment by ```pip install --upgrade dnbc4tools```.
 
 ### **2.0.0**
 `2022.06.20`

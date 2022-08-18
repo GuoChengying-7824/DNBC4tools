@@ -1,10 +1,11 @@
-### **2.0.4**
-`2022.08.18`
+### **2.0.5**
+`2022.08.19`
 - Update： Add docker version.
-- Fix： There is a problem with the annotation logic statistics in 2.0.0, and 2.0.4 has been corrected.
+- Fix： There is a problem with the annotation logic statistics in 2.0.0, and 2.0.5 has been corrected.
 - Fix： Fixed some description in html.
 - Fix： The 2.0.0 was too strict with the format of gtf file, we change it.If there is no "gene_name" in the gtf file, "gene_id" is used by default, and if there is no "transcript_name", "transcript_id" is used by default.
 - Fix： Adjusted umi correction.
+- Fix： Fix the problem that the head of gtf need '#' when filtering gtf.
 - It's recommended to upgrade this version, git clone the repo and then update the emvironment by ```pip install --upgrade dnbc4tools```.
 
 ### **2.0.0**

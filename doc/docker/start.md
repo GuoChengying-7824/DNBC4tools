@@ -58,6 +58,7 @@ DNBC4tools run --name $name \
 ```
 
 
+</b>
 
 ### singularity
 

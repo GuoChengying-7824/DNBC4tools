@@ -2,7 +2,7 @@
 
 ### **Software Description**
 - This software packages the process of DNBC4tools to pypi [https://pypi.org/project/DNBC4tools/](https://pypi.org/project/DNBC4tools/).
-- You can directly use pip to install and update, you don't need to set the conda environment in use, you can use it directly in the ordinary environment.
+- You can directly use pip to install and update.
 
 ### **Software Usage**
 #### Software Catalog

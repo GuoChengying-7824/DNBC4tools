@@ -27,12 +27,7 @@ wget https://github.com/broadinstitute/cromwell/releases/download/35/cromwell-35
 ```
 
 ### 4. Update
-- git clone the repo，and update conda environment
-```shell
-source activate DNBC4tools
-conda env update -f DNBC4tools.yaml
-```
-- only update the python package dnbc4tools
+- git clone the repo，and update the python package dnbc4tools
 ```shell
 source activate DNBC4tools
 pip install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple dnbc4tools

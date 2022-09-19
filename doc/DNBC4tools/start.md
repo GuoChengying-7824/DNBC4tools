@@ -11,7 +11,7 @@
 <br />
 
 ### Software Command Parameters
-##### **DNBC4tools run**
+#### **DNBC4tools run**
 
 **Usage**
 
@@ -43,32 +43,32 @@
 
 
 
-##### **DNBC4tools data** 
+#### **DNBC4tools data** 
 
 Analyze data quality control and data comparison annotation to generate final.bam and raw_matrix, the corresponding directory is *01.data*.
 
-##### **DNBC4tools count** 
+#### **DNBC4tools count** 
 
 Analyze and filter empty droplets and size magnetic beads matching, saturation curve and generate filter_matrix, the corresponding directory is *02.count*.
 
-##### **DNBC4tools analysis** 
+#### **DNBC4tools analysis** 
 
 Use filter_matrix for data filtering and cluster annotation. Provide more parameter modifications. If you need to adjust the analysis results, you can use analysis alone to analyze and then use run "--process report" to generate a report. The corresponding directory is *03.analysis*.
 
-**DNBC4tools report** 
+#### **DNBC4tools report** 
 
 Generate result files and result reports, the corresponding directories are *04.report* and output.
 
-**DNBC4tools multi** 
+#### **DNBC4tools multi** 
 
 To generate multiple shells for multiple samples and run them manually, all samples need to use the same reference gene and annotation files.
 **--list** Sample list of this parameter. [refer](../list.md)
 
-**DNBC4tools clean**
+#### **DNBC4tools clean**
 
  If it is determined that reanalysis is not required, use the command to delete large temp files, use "DNBC4tools clean" to delete all reported samples in this directory by default, or use "--name" to selectively delete samples. The result will also generate a result file to merge the metrics_summary.xls of the sample.
 
-**DNBC4tools mkref** 
+#### **DNBC4tools mkref** 
 
 Generate star index file based on genome and annotation file gtf. [refer](../database.md)
 

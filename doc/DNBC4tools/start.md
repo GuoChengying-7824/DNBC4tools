@@ -36,10 +36,10 @@
     - **--mtgenes** Set mitochondrial genes(mtgene list file path) or auto, auto is find genes starting with MT or mt. mtgenes's file like [this](../gene.list)
     - **--process** Select the steps to be analyzed, including data, count, analysis, and report. If this parameter is selected, some of the steps are in error and the step can be rerun.
 - **FLAG parameter**：
-      - **--no_introns** By default, the reads of exon and intron are calculated at the same time. If this parameter is selected, the intron reads will not be calculated. It is recommended not to select.
-      - **--mixseq** cDNA and oligo library are sequenced on the same chip, and this parameter is added when the sequencing mode is cDNA sequencing mode. In the presence of this parameter, the --oligoconfig parameter is invalid, and DNBelabC4_scRNA_oligomix_readStructure.json is used.
-      - **--no_bam** By default, anno_decon_sort.bam will be moved to the result directory output. If this parameter is selected, this operation will not be performed.
-      - **--dry** The code of the step is printed directly without analysis.
+    - **--no_introns** By default, the reads of exon and intron are calculated at the same time. If this parameter is selected, the intron reads will not be calculated. It is recommended not to select.
+    - **--mixseq** cDNA and oligo library are sequenced on the same chip, and this parameter is added when the sequencing mode is cDNA sequencing mode. In the presence of this parameter, the --oligoconfig parameter is invalid, and DNBelabC4_scRNA_oligomix_readStructure.json is used.
+    - **--no_bam** By default, anno_decon_sort.bam will be moved to the result directory output. If this parameter is selected, this operation will not be performed.
+    - **--dry** The code of the step is printed directly without analysis.
 
 
 

@@ -4,6 +4,7 @@
 - This software packages the process of DNBC4tools to pypi [https://pypi.org/project/DNBC4tools/](https://pypi.org/project/DNBC4tools/).
 - You can directly use pip to install and update, you don't need to set the conda environment in use, you can use it directly in the ordinary environment.
 
+<br />
 ### **Software Usage**
 #### Software Catalog
  After conda installs the software environment, the command line "DNBC4tools" will be generated in the environment directory "bin"
@@ -72,6 +73,8 @@ To generate multiple shells for multiple samples and run them manually, all samp
 
 Generate star index file based on genome and annotation file gtf. [refer](../database.md)
 
+<br />
+<br />
 ### **Example of Use**
 - **run** 
 <br /> We recommend that in addition to adding required parameters, "--species" and "--thread" are also necessary. Larger threads can reduce the time of process analysis.
@@ -99,5 +102,7 @@ Generate star index file based on genome and annotation file gtf. [refer](../dat
 ### Delete the temp files of sample A
 /mgi/miniconda3/envs/DNBC4tools/bin/DNBC4tools clean --name A
 ```
+<br />
+<br />
 ## FAQ
 Frequently Asked Questions [here](./faq.md)

@@ -18,8 +18,6 @@ An config JSON file includes all input parameters and genome reference index dir
 ```shell
 ### run the pipeline
 sh run.sh
-### Background run the pipeline
-nohup sh run.sh > run.log 2>&1 &
 ### run in Cluster(sge)
 echo "sh run.sh" | qsub -cwd -l vf=50G,num_proc=4 -q xxx -N scRNA_run
 ### run in Cluster(pbs)

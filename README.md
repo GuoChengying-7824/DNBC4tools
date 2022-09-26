@@ -1,4 +1,4 @@
-[![docs]([https://img.shields.io/static/v1?label=docs&message=dnbc4tools&color=green)](https://dnbc4tools.readthedocs.io/zh/latest/?badge=latest)
+[![docs](https://img.shields.io/static/v1?label=docs&message=dnbc4tools&color=green)](https://dnbc4tools.readthedocs.io/zh/latest/?badge=latest)
 [![PyPI](https://img.shields.io/pypi/v/dnbc4tools)](https://pypi.org/project/DNBC4tools)
 [![Docker Pulls](https://img.shields.io/docker/pulls/lishuangshuang3/dnbc4tools)](https://hub.docker.com/r/lishuangshuang3/dnbc4tools)
 

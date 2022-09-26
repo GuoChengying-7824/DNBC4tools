@@ -5,10 +5,8 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/lishuangshuang3/dnbc4tools)](https://hub.docker.com/r/lishuangshuang3/dnbc4tools)
 
 # DNBelab_C_Series_HT_scRNA-analysis-software
-An open source and flexible pipeline to analysis high-throughput DNBelab C Series single-cell RNA datasets
+An open source and flexible pipeline to analysis high-throughput DNBelab C Series<sup>TM</sup> single-cell RNA datasets
 ## Introduction
-- **Propose**
-  - An open source and flexible pipeline to analyze DNBelab C Series<sup>TM</sup> single-cell RNA datasets. 
 - **Language**
   - Python3(>=3.8.*),R scripts
 - **Hardware/Software requirements** 
@@ -22,9 +20,6 @@ installation manual [**here**](./doc/installation.md)
 ## Database
 Create database manual [**here**](./doc/database.md)
 ## Start
-
 **Command line** : **[DNBC4tools](./doc/DNBC4tools/start.md)**
-
 **Container** : **[Docker/Singularity](./doc/docker/start.md)**
-
 **WDL** : **[WDL](./doc/wdl/start.md)**

@@ -23,14 +23,8 @@ installation manual [**here**](./doc/installation.md)
 Create database manual [**here**](./doc/database.md)
 ## Start
 
-**Command line : Using the DNBC4tools**
+**Command line : **[DNBC4tools](./doc/DNBC4tools/start.md)**
 
-- **[DNBC4tools](./doc/DNBC4tools/start.md)**
+**Container** : **[Docker/Singularity](./doc/docker/start.md)**
 
-**Container**
-
-- **[Docker/Singularity](./doc/docker/start.md)**
-
-**WDL : Customize the config file, use wdl to analysis**
-
-- **[WDL](./doc/wdl/start.md)**
+**WDL** : **[WDL](./doc/wdl/start.md)**

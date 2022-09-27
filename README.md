@@ -1,4 +1,4 @@
-[![docs](https://img.shields.io/static/v1?label=docs&message=dnbc4tools&color=blue)](https://dnbc4tools.readthedocs.io/zh/latest)
+[![docs](https://img.shields.io/static/v1?label=docs&message=dnbc4tools&color=blue)](https://dnbc4tools.readthedocs.io)
 [![PyPI](https://img.shields.io/pypi/v/dnbc4tools)](https://pypi.org/project/DNBC4tools)
 [![downloads](https://static.pepy.tech/personalized-badge/dnbc4tools?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/dnbc4tools)
 [![Docker Pulls](https://img.shields.io/docker/pulls/lishuangshuang3/dnbc4tools)](https://hub.docker.com/r/lishuangshuang3/dnbc4tools)

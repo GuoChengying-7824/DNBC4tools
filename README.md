@@ -21,7 +21,7 @@ installation manual [**here**](./doc/installation.md)
 
 ## Database
 Create database manual [**here**](./doc/database.md)
-## Start
+## Quick start
 - **Command line** : **[DNBC4tools](./doc/DNBC4tools/start.md)**
 
 - **Container** : **[Docker/Singularity](./doc/docker/start.md)**

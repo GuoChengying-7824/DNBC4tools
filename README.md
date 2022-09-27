@@ -30,4 +30,4 @@ Create database manual [**here**](./doc/database.md)
 
 ## Support
 - Please use github issue tracker for questions. [**issues**](https://github.com/MGI-tech-bioinformatics/DNBelab_C_Series_HT_scRNA-analysis-software/issues).
-- Documentation.[*docs*](https://dnbc4tools.readthedocs.io)
+- Documentation.[**docs**](https://dnbc4tools.readthedocs.io)

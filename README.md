@@ -2,7 +2,7 @@
 [![docs](https://img.shields.io/static/v1?label=docs&message=dnbc4tools&color=green)](https://dnbc4tools.readthedocs.io/zh/latest/?badge=latest)
 [![PyPI](https://img.shields.io/pypi/v/dnbc4tools)](https://pypi.org/project/DNBC4tools)
 [![downloads](https://static.pepy.tech/personalized-badge/dnbc4tools?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/dnbc4tools)
-[![Docker Pulls](https://badgen.net/docker/pulls/lishuangshuang3/dnbc4tools?label=docker pulls&color=blue)](https://hub.docker.com/r/lishuangshuang3/dnbc4tools)
+[![Docker Pulls](https://badgen.net/docker/pulls/lishuangshuang3/dnbc4tools?logo=docker&label=pulls&color=blue)](https://hub.docker.com/r/lishuangshuang3/dnbc4tools)
 
 # DNBelab_C_Series_HT_scRNA-analysis-software
 An open source and flexible pipeline to analysis high-throughput DNBelab C Series<sup>TM</sup> single-cell RNA datasets

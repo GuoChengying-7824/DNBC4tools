@@ -2,7 +2,6 @@
 [![PyPI](https://img.shields.io/pypi/v/dnbc4tools)](https://pypi.org/project/DNBC4tools)
 [![downloads](https://static.pepy.tech/personalized-badge/dnbc4tools?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/dnbc4tools)
 [![Docker Pulls](https://img.shields.io/docker/pulls/lishuangshuang3/dnbc4tools)](https://hub.docker.com/r/lishuangshuang3/dnbc4tools)
-[![PyPI download](https://img.shields.io/pypi/dm/dnbc4tools?label=pypi%20downloads)](https://pypi.org/project/DNBC4tools)
 [![Github Release](https://img.shields.io/github/v/release/lishuangshuang0616/DNBC4tools)](https://github.com/lishuangshuang0616/DNBC4tools/releases)
 
 # DNBelab_C_Series_HT_scRNA-analysis-software

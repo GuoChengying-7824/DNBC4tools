@@ -1,6 +1,6 @@
 [![Github Release](https://img.shields.io/github/v/release/lishuangshuang0616/DNBC4tools)](https://github.com/lishuangshuang0616/DNBC4tools/releases)
 [![PyPI](https://img.shields.io/pypi/v/dnbc4tools)](https://pypi.org/project/DNBC4tools)
-![Docker Image Version (latest by date)](https://img.shields.io/docker/v/lishuangshuang3/dnbc4tools?label=docker)
+[![PyPI](https://img.shields.io/docker/pulls/lishuangshuang3/dnbc4tools)](https://hub.docker.com/r/lishuangshuang3/dnbc4tools)
 [![docs](https://img.shields.io/static/v1?label=docs&message=dnbc4tools&color=blue)](https://dnbc4tools.readthedocs.io)
 [![downloads](https://static.pepy.tech/personalized-badge/dnbc4tools?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/dnbc4tools)
 

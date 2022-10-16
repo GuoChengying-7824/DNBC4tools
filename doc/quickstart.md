@@ -57,7 +57,7 @@ DNBC4tools mkref --action mkgtf --ingtf gencode.v32.primary_assembly.annotation.
                         gene_type:TR_V_pseudogene \
                         gene_type:TR_J_pseudogene
                         
-DNBC4tools	mkref --action mkref --ingtf gene.filter.gtf \
+DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
             --fasta GRCh38.primary_assembly.genome.fa \
             --star_dir . \
             --thread 10
@@ -90,7 +90,7 @@ DNBC4tools mkref --action mkgtf --ingtf gencode.vM23.primary_assembly.annotation
                         gene_type:TR_V_pseudogene \
                         gene_type:TR_J_pseudogene
                         
-DNBC4tools	mkref --action mkref --ingtf gene.filter.gtf \
+DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
             --fasta GRCm38.primary_assembly.genome.fa \
             --star_dir . \
             --thread 10

@@ -4,7 +4,7 @@ DNBelab_C_Series_HT_scRNA-analysis-software analysis software can be based on co
 
 
 
-## conda
+## 1.conda
 
 ##### 1.1 Clone repo
 
@@ -36,7 +36,7 @@ pip install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple dnbc4tools
 
 
 
-### container
+### 2.container
 
 image ：[Docker Hub](https://hub.docker.com/r/lishuangshuang3/dnbc4tools)
 

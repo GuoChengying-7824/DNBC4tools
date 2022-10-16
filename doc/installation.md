@@ -37,8 +37,6 @@ pip install --upgrade -i https://pypi.tuna.tsinghua.edu.cn/simple dnbc4tools
 
 ### 2. container
 
-image ：[Docker Hub](https://hub.docker.com/r/lishuangshuang3/dnbc4tools)
-
 ##### docker
 
 ```shell

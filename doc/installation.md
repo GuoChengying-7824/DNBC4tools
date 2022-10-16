@@ -21,6 +21,7 @@ Requires conda to be installed
 ```shell
 source /miniconda3/bin/activate
 conda env create -f DNBC4tools.yaml -n DNBC4tools
+conda activate DNBC4tools
 Rscript -e "devtools::install_github(c('chris-mcginnis-ucsf/DoubletFinder','ggjlab/scHCL','ggjlab/scMCA'),force = TRUE);"
 ```
 ***Note:*** If you use wdl to run the process, you need to download [cromwell-35.jar](https://github.com/broadinstitute/cromwell/releases/download/35/cromwell-35.jar)

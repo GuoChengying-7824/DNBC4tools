@@ -111,15 +111,3 @@ DNBC4tools run --cDNAfastq1 /test/data/test_cDNA_R1.fastq.gz \
 	--name test --species Mouse --thread 10
 ```
 
-**create shell for multi samples**
-
-```shell
-DNBC4tools multi --list samplelist --genomeDir /database/Mouse/mm10 --gtf /database/Mouse/mm10/genes.gtf --thread 10
-```
-
-**complete and clean temp**
-
-```shell
-DNBC4tools clean
-```
-

@@ -2,13 +2,13 @@
 
 ### DNBC4tools
 
-**conda**
+- **conda**
 
 ```shell
 /miniconda3/envs/DNBC4tools/bin/DNBC4tools
 ```
 
-**docker**
+- **docker**
 
 ```shell
 docker run -P  -v $Database_LOCAL:/database -v $Rawdata_LOCAL:/data -v $Result_LOCAL:/result lishuangshuang3/dnbc4tools DNBC4tools
@@ -18,7 +18,7 @@ docker run -P  -v $Database_LOCAL:/database -v $Rawdata_LOCAL:/data -v $Result_L
 # You can use --user $(id -u):$(id -g) to obtain the owner and group
 ```
 
-**singularity**
+- **singularity**
 
 ```shell
 export SINGULARITY_BIND=$cDNA_data,$oligo_data,$result,$database

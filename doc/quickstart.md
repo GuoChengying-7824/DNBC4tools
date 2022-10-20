@@ -66,7 +66,6 @@ DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
 - **Mouse(GRCm38)**
 
 ```shell
-# DNBC4tools: /miniconda3/envs/DNBC4tools/bin/DNBC4tools
 wget http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M23/GRCm38.primary_assembly.genome.fa.gz
 wget http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M23/gencode.vM23.primary_assembly.annotation.gtf.gz
 gunzip GRCm38.primary_assembly.genome.fa.gz

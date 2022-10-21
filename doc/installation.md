@@ -4,7 +4,7 @@ DNBelab_C_Series_HT_scRNA-analysis-software analysis software can be based on co
 
 
 
-## 1. conda
+### 1. conda
 
 ##### 1.1 Clone repo
 

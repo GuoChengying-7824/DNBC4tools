@@ -36,8 +36,8 @@ singularity exec dnbc4tools.sif DNBC4tools
 ```shell
 wget http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/GRCh38.primary_assembly.genome.fa.gz
 wget http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_32/gencode.v32.primary_assembly.annotation.gtf.gz
-gunzip GRCh38.primary_assembly.genome.fa.gz
-gunzip gencode.v32.primary_assembly.annotation.gtf.gz
+gzip -d GRCh38.primary_assembly.genome.fa.gz
+gzip -d gencode.v32.primary_assembly.annotation.gtf.gz
 
 DNBC4tools mkref --action mkgtf --ingtf gencode.v32.primary_assembly.annotation.gtf --outgtf gene.filter.gtf \
             --attribute gene_type:protein_coding \
@@ -59,7 +59,7 @@ DNBC4tools mkref --action mkgtf --ingtf gencode.v32.primary_assembly.annotation.
                         
 DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
             --fasta GRCh38.primary_assembly.genome.fa \
-            --star_dir . \
+            --genomeDir . \
             --thread 10
 ```
 
@@ -68,8 +68,8 @@ DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
 ```shell
 wget http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M23/GRCm38.primary_assembly.genome.fa.gz
 wget http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M23/gencode.vM23.primary_assembly.annotation.gtf.gz
-gunzip GRCm38.primary_assembly.genome.fa.gz
-gunzip gencode.vM23.primary_assembly.annotation.gtf.gz
+gzip -d GRCm38.primary_assembly.genome.fa.gz
+gzip -d gencode.vM23.primary_assembly.annotation.gtf.gz
 
 DNBC4tools mkref --action mkgtf --ingtf gencode.vM23.primary_assembly.annotation.gtf --outgtf gene.filter.gtf \
             --attribute gene_type:protein_coding \
@@ -91,7 +91,7 @@ DNBC4tools mkref --action mkgtf --ingtf gencode.vM23.primary_assembly.annotation
                         
 DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
             --fasta GRCm38.primary_assembly.genome.fa \
-            --star_dir . \
+            --genomeDir . \
             --thread 10
 ```
 

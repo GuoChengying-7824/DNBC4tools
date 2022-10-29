@@ -10,10 +10,6 @@ An open source and flexible pipeline to analyze high-throughput DNBelab C Series
 - require at least 50GB of RAM and 4 CPU. 
 - centos 7.x 64-bit operating system (Linux kernel 3.10.0, compatible with higher software and hardware configuration). 
 
-#### Overview of the principle of process analysis
-
-
- <img src="pipeline.png" width="75%">
 
 ## [Installation](installation.md)
 
@@ -25,6 +21,6 @@ An open source and flexible pipeline to analyze high-throughput DNBelab C Series
 
 - ### [WDL](wdl.md)
 
-## [FAQ](FAQ)
+## [FAQ](faq.md)
 
-## [Change log](
+## [Change log](../CHANGELOG.md)

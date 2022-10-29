@@ -17,6 +17,9 @@ An open source and flexible pipeline to analyze high-throughput DNBelab C Series
 - require at least 50GB of RAM and 4 CPU. 
 - centos 7.x 64-bit operating system (Linux kernel 3.10.0, compatible with higher software and hardware configuration). 
 
+**Workflow**
+![](https://github.com/lishuangshuang0616/DNBC4tools/tree/dev/pipeline.bmp)
+
 ## Start
 
 - [**installation** ](./doc/installation.md)

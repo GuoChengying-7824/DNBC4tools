@@ -56,7 +56,7 @@ $DNBC4tools mkref --action mkgtf --ingtf gene.gtf --outgtf gene.filter.gtf \
 ```shell
 $DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
             --fasta genome.fa \
-            --star_dir $star_dir \
+            --genomeDir $--genomeDir \
             --thread $threads
 ```
 ***Notice***: STAR version is 2.7.2b, STAR versionGenome is 2.7.1a. Version does not adapt downward.

@@ -18,7 +18,7 @@ An open source and flexible pipeline to analyze high-throughput DNBelab C Series
 - centos 7.x 64-bit operating system (Linux kernel 3.10.0, compatible with higher software and hardware configuration). 
 
 **Workflow**
- <img src="./doc/pipeline.bmp" alt="pipeline" style="zoom:10%;" />
+ <img src="./doc/pipeline.bmp" width="60%">
 
 ## Start
 

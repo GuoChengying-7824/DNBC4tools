@@ -146,7 +146,7 @@ DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
 | --limitram  | Integer   | The memory size called when the program is running, the default is 125000000000. |
 
 
-
+<br />
 ### 2. DNBC4tools run (run the main program)
 
 The run command runs the main program
@@ -273,7 +273,7 @@ The parameters remain the same as DNBC4tools run.
 ***Notice:*** Some parameters in data, count, analysis, report are not in the main program run. Usually these parameters can be analyzed with the default values. If you need to modify these parameters, you can use the data, count, analysis, report modules for analysis, and then use the run -process parameter to analyze the subsequent results. For example, after using run to get the analysis results and report, if you are not satisfied with the results of cell grouping, you can use DNBC4tools analysis –resolution to adjust the resolution of the grouping. After the analysis is completed, use DNBC4tools run –process report to complete the subsequent report analysis.
 
 
-
+<br />
 ### 3. DNBC4tools multi (generates DNBC4tools run for multiple samples)
 
 ```shell
@@ -296,7 +296,7 @@ test3 cDNA3_L01_1.fq.gz;cDNA3_L01_2.fq.gz    oligo3_L01_1.fq.gz,oligo3_L02_1.fq.
 - The species name of the analyzed samples must be consistent, because only one species can be analyzed.
 
 
-
+<br />
 ### 4. DNBC4tools clean (clean intermediate files after analysis)
 
 Clears intermediate files with large storage in the analysis. Use when you are sure that the results do not need to be reanalyzed.

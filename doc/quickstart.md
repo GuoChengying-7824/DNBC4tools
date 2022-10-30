@@ -4,11 +4,11 @@
 
 - **conda**
 
+No source environment is required, use the full path command directly
+
 ```shell
 /miniconda3/envs/DNBC4tools/bin/DNBC4tools
 ```
-
-No source environment is required, use the full path command directly
 
 - **docker**
 

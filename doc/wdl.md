@@ -48,7 +48,7 @@ We provide a example [JSON files](../example/wdl/config.json).
 
 ### 1.2 run.sh
 
-run.sh prepare the main analysis script:
+Prepare the main analysis script:
 
 We provide a example [run.sh](../example/wdl/run.sh)
 

@@ -32,7 +32,7 @@ singularity exec dnbc4tools.sif DNBC4tools
 
 
 
-### 1. DNBC4tools mkref (Build Database)
+### **1. DNBC4tools mkref (Build Database)**
 
 Analysis requires reference genome and annotation files for alignment and annotation. A reference genome database of the corresponding species needs to be created before analysis. Two files need to be prepared, the genome DNA sequence file (FASTA format) and the gene annotation file (GTF format). The commonly used Ensembl and GENECODE databases provide files in both formats.
 
@@ -148,7 +148,7 @@ DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
 
 <br />
 
-### 2. DNBC4tools run (run the main program)
+### **2. DNBC4tools run (run the main program)**
 
 The run command runs the main program
 
@@ -276,7 +276,7 @@ The parameters remain the same as DNBC4tools run.
 
 <br />
 
-### 3. DNBC4tools multi (generates DNBC4tools run for multiple samples)
+### **3. DNBC4tools multi (generates DNBC4tools run for multiple samples)**
 
 ```shell
 DNBC4tools multi --list samplelist \
@@ -300,7 +300,7 @@ test3 cDNA3_L01_1.fq.gz;cDNA3_L01_2.fq.gz    oligo3_L01_1.fq.gz,oligo3_L02_1.fq.
 
 <br />
 
-### 4. DNBC4tools clean (clean intermediate files after analysis)
+### **4. DNBC4tools clean (clean intermediate files after analysis)**
 
 Clears intermediate files with large storage in the analysis. Use when you are sure that the results do not need to be reanalyzed.
 

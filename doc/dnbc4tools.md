@@ -147,6 +147,7 @@ DNBC4tools mkref --action mkref --ingtf gene.filter.gtf \
 
 
 <br />
+
 ### 2. DNBC4tools run (run the main program)
 
 The run command runs the main program
@@ -274,6 +275,7 @@ The parameters remain the same as DNBC4tools run.
 
 
 <br />
+
 ### 3. DNBC4tools multi (generates DNBC4tools run for multiple samples)
 
 ```shell
@@ -297,6 +299,7 @@ test3 cDNA3_L01_1.fq.gz;cDNA3_L01_2.fq.gz    oligo3_L01_1.fq.gz,oligo3_L02_1.fq.
 
 
 <br />
+
 ### 4. DNBC4tools clean (clean intermediate files after analysis)
 
 Clears intermediate files with large storage in the analysis. Use when you are sure that the results do not need to be reanalyzed.

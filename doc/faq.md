@@ -10,8 +10,8 @@ Library structure for version 1.0 chemistry
 
 - cDNA：
 
- <img src="https://s2.loli.net/2022/09/27/xOMpQlhtEZHJofB.png" alt="image-20220927164405160" width:"50%">
+ <img src="https://s2.loli.net/2022/09/27/xOMpQlhtEZHJofB.png" alt="image-20220927164405160" width="50%">
 
 - oligo：
 
- <img src="https://s2.loli.net/2022/09/27/IzaBlQOb2SvEjrW.png" alt="image-20220927164440769" width:"50%">
+ <img src="https://s2.loli.net/2022/09/27/IzaBlQOb2SvEjrW.png" alt="image-20220927164440769" width="50%">

@@ -120,3 +120,9 @@ If you are not satisfied with the obtained cell results, you can replace the cel
 <br />
 <br />
 
+3.Not satisfied with the result of some parameters, re-analyze?
+The DNBelab C4 analysis pipeline supports skipping completed steps. For example, if the multi-bead analysis error is reported in the 02.count step, there is no need to re-analyze the 01.data step. DNBC4tools only needs to add the parameter `--process count,analysis,report` to the original analysis to skip the analysis step of the data analysis step. When the analysis results are unsatisfactory and need to be re-analyzed, it is necessary to determine which stage of the analysis parameters to be adjusted is located, and then select the next steps of the analysis.
+
+Some parameters in DNBC4tools data, count, analysis, report are not in the main program run. Usually these parameters can be analyzed with the default values. If you really need to modify these parameters, you can use the data, count, analysis, and report modules for analysis, and then use the run -process parameter to analyze the subsequent results. For example, after using run to get the analysis results and report, if you are not satisfied with the results of cell grouping, you can use DNBC4tools analysis `–resolution` to adjust the resolution of the grouping. After the analysis is completed, use DNBC4tools run `–process report` to complete the subsequent report analysis.
+
+In wdl mode, we confirm which steps have been completed by using the flag file in the `symbol`, if the flag file of the step is deleted, the step will be re-analyzed when re-analyzing.

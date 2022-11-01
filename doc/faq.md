@@ -101,5 +101,19 @@ read 1:R2:1-10,R2:17-26,R2:33-42
 For other sequencing strategies, you can customize the json file and fill in the location according to the location information.
 
 </b>
+</b>
 
-### 1. How to set parameters in different sequencing strategy modes or chemistry, and how to adapt the software to analysis?
+### 2.Which parameter should cell_calling choose?
+
+The default cell calling method is emptydrops.
+
+- emptydrops
+
+First determine the effective droplet beads, first use the high umi threshold method to expect to capture N beads, then sort according to the number of UMIs corresponding to each barcode, and take the UMI corresponding to the 99th quantile of the N cell barcodes with the highest number of UMIs. Divide the number by 10 as a cut-off. The number of UMIs in all cell barcodes is higher than the cut-off, which is the cell, otherwise it is the background), and then use emptydrops to distinguish the low-umi beads from the background beads (determine the background empty droplet set, use the Dirichlet-multinomial model to It is tested for significance with the UMI count corresponding to each bead, and a significant difference is the beads in the effective droplet, otherwise it is the background beads).
+
+- barcoderanks
+
+Arrange the cell barcodes according to the number of UMIs from high to low, and fit the curve. The number of UMIs corresponding to the point with a large change in the slope of the curve is the cut-off. The number of UMIs corresponding to all cell barcodes is higher than the cut-off is the effective droplet. beads, otherwise background beads.
+
+If you are not satisfied with the obtained cell results, you can replace the cell calling method to re-calculate or use forcecells to determine the number of umi to sort the top N beads for analysis.
+

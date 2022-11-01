@@ -8,7 +8,7 @@
 
 An input JSON file includes all genomic data files, parameters and metadata for running pipelines. Pipeline will use default values if they are not defined in  input JSON file.
 
-We provide a example [JSON files](../example/wdl/config.json).
+We provide a example [JSON files](../example/config.json).
 
 - Required parameters
 
@@ -50,7 +50,7 @@ We provide a example [JSON files](../example/wdl/config.json).
 
 Prepare the main analysis script:
 
-We provide a example [run.sh](../example/wdl/run.sh)
+We provide a example [run.sh](../example/run.sh)
 
 ```shell
 export PATH=/miniconda3/envs/DNBC4tools/bin:$PATH

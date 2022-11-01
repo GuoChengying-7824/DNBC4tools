@@ -100,8 +100,8 @@ read 1:R2:1-10,R2:17-26,R2:33-42
 
 For other sequencing strategies, you can customize the json file and fill in the location according to the location information.
 
-</b>
-</b>
+<br />
+<br />
 
 ### 2.Which parameter should cell_calling choose?
 
@@ -116,4 +116,7 @@ First determine the effective droplet beads, first use the high umi threshold me
 Arrange the cell barcodes according to the number of UMIs from high to low, and fit the curve. The number of UMIs corresponding to the point with a large change in the slope of the curve is the cut-off. The number of UMIs corresponding to all cell barcodes is higher than the cut-off is the effective droplet. beads, otherwise background beads.
 
 If you are not satisfied with the obtained cell results, you can replace the cell calling method to re-calculate or use forcecells to determine the number of umi to sort the top N beads for analysis.
+
+<br />
+<br />
 

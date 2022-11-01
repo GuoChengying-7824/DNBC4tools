@@ -157,4 +157,4 @@ DNBC4tools run --cDNAfastq1 cDNA1_R1.fastq.gz,cDNA2_R1.fastq.gz \
              --name test --species Mus_musculus --thread 10
 ```
 
-In the above example, there are two sequences in both `--cDNAfastq1` and `--cDNAfastq2`. These two sequences must be the same cDNA library sequence, and multiple sequences may be used on multiple lanes or data addition. The data of different chips cannot be analyzed together, because the cell barcode and umi are random. If you need to merge the data of the two chips, you can use seurat or scanpy to merge the data after this analysis.
+In the above example, there are two sequences in both `--cDNAfastq1` and `--cDNAfastq2`. These two sequences must be the same cDNA library sequence, and multiple sequences may be used on multiple lanes or data addition. The data of different chips cannot be analyzed together, because the cell barcode and umi are random. If you need to merge the data of the two chips, you can use seurat or scanpy to merge the matrix after this analysis.

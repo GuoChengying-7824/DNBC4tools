@@ -91,7 +91,30 @@ library(Seurat)
 counts <- Read10X(data.dir = $dir,gene.column = 1)
 ```
 
-##### RNA_velocity
+#### ***python***
+```python
+import pandas as pd
+import scipy.io
+import anndata
+from scipy.sparse import csr_matrix
+def ReadPISA(path):
+    mat = scipy.io.mmread(path+"/"+"matrix.mtx.gz").astype("float32")
+    mat = mat.transpose()
+    mat = csr_matrix(mat)
+    adata = anndata.AnnData(mat,dtype="float32")
+    genes = pd.read_csv(path+'/'+'features.tsv.gz', header=None, sep='\t')
+    var_names = genes[0].values
+    var_names = anndata.utils.make_index_unique(pd.Index(var_names))
+    adata.var_names = var_names
+    adata.var['gene_symbols'] = genes[0].values
+    adata.obs_names = pd.read_csv(path+'/'+'barcodes.tsv.gz', header=None)[0].values
+    adata.var_names_make_unique()
+    return adata
+```
+
+### RNA_velocity
+
+You can read the matrix of this directory output/attachment/RNAvelocity_matrix
 
 ```R
 ReadPISA <- function(mex_dir=NULL,
@@ -177,27 +200,7 @@ nmat <- EC$unspliced
 smat <- EC$spanning
 ```
 
-
-
-
-#### ***python***
-```python
-import pandas as pd
-import scipy.io
-import anndata
-from scipy.sparse import csr_matrix
-def ReadPISA(path):
-    mat = scipy.io.mmread(path+"/"+"matrix.mtx.gz").astype("float32")
-    mat = mat.transpose()
-    mat = csr_matrix(mat)
-    adata = anndata.AnnData(mat,dtype="float32")
-    genes = pd.read_csv(path+'/'+'features.tsv.gz', header=None, sep='\t')
-    var_names = genes[0].values
-    var_names = anndata.utils.make_index_unique(pd.Index(var_names))
-    adata.var_names = var_names
-    adata.var['gene_symbols'] = genes[0].values
-    adata.obs_names = pd.read_csv(path+'/'+'barcodes.tsv.gz', header=None)[0].values
-    adata.var_names_make_unique()
-    return adata
+or the bam used for RNA velocyto is anno_decon_sorted.bam in the output directory, but some processing is required because the tag of the cell barcode in bam is DB. The script is changeBamTag.py, using method
+```shell
+/miniconda3/envs/DNBC4tools/bin/python changeBamTag.py --infile anno_decon_sorted.bam --outfile velocyto.bam
 ```
-

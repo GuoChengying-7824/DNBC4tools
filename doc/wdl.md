@@ -12,38 +12,38 @@ We provide a example [JSON files](../example/wdl/config.json).
 
 - Required parameters
 
-| parameter          | type      | description                                                  |
-| ------------------ | --------- | ------------------------------------------------------------ |
-| main. Outdir       | Directory | Path to the output result directory.                         |
-| main. SampleName   | String    | Sample name, no spaces allowed.                              |
-| main.cDNA_Fastq1   | Fastq     | The R1 terminal sequence of the cDNA library in fastq format, multiple files are separated by commas. |
-| main.cDNA_Fastq2   | Fastq     | The R2 terminal sequence of the cDNA library in fastq format, multiple files are separated by commas, the sequence is the same as main.cDNA_Fastq1. |
-| main. Oligo_Fastq1 | Fastq     | The R1 terminal sequence of the oligo library in fastq format, multiple files are separated by commas. |
-| main. Oligo_Fastq2 | Fastq     | The R2 terminal sequence of the oligo library in fastq format, multiple files are separated by commas, and the sequence is the same as main.oligo_Fastq1. |
-| main. BeadsBarcode | JSON file | The path of the cDNA library structure file, which is in json format, including the structure position, the number of allowed mismatched bases in Hamming distance, and the cell barcode whitelist information. |
-| main. OligoBarcode | JSON file | The path of the oligo library structure file, which is in json format, including the structure position, the number of allowed mismatched bases in Hamming distance, and the cell barcode whitelist information. |
-| main. Root         | Directory | DNBelab C4 Analysis Process Path.                            |
-| main. Refdir       | Directory | The reference genome builds the database index path.         |
-| main. Gtf          | File Path | The reference genome annotation file gtf path.               |
-| main. Oligo_type8  | File Path | The path of the oligo library droplet index whitelist information file. |
-| main. Species      | String    | Sample species name.                                         |
+| parameter         | type      | description                                                  |
+| ----------------- | --------- | ------------------------------------------------------------ |
+| main.Outdir       | Directory | Path to the output result directory.                         |
+| main.SampleName   | String    | Sample name, no spaces allowed.                              |
+| main.cDNA_Fastq1  | Fastq     | The R1 terminal sequence of the cDNA library in fastq format, multiple files are separated by commas. |
+| main.cDNA_Fastq2  | Fastq     | The R2 terminal sequence of the cDNA library in fastq format, multiple files are separated by commas, the sequence is the same as main.cDNA_Fastq1. |
+| main.Oligo_Fastq1 | Fastq     | The R1 terminal sequence of the oligo library in fastq format, multiple files are separated by commas. |
+| main.Oligo_Fastq2 | Fastq     | The R2 terminal sequence of the oligo library in fastq format, multiple files are separated by commas, and the sequence is the same as main.oligo_Fastq1. |
+| main.BeadsBarcode | JSON file | The path of the cDNA library structure file, which is in json format, including the structure position, the number of allowed mismatched bases in Hamming distance, and the cell barcode whitelist information. |
+| main.OligoBarcode | JSON file | The path of the oligo library structure file, which is in json format, including the structure position, the number of allowed mismatched bases in Hamming distance, and the cell barcode whitelist information. |
+| main.Root         | Directory | DNBelab C4 Analysis Process Path.                            |
+| main.Refdir       | Directory | The reference genome builds the database index path.         |
+| main.Gtf          | File Path | The reference genome annotation file gtf path.               |
+| main.Species      | String    | Sample species name.                                         |
 
 - Optional parameters
 
-| parameter             | type    | description                                                  |
-| --------------------- | ------- | ------------------------------------------------------------ |
-| main.expectCellNum    | Integer | Default: 3000. The expected number of cells, the parameter is valid only when calling_method is emptydrops. |
-| main.calling_method   | String  | Default: emptydrops. The method of cell calling to identify effective beads in droplets, optional barcoderanks and emptydrops. |
-| main.forceCellNum     | Integer | Default: 0. Intercept the number of beads.                   |
-| main. Intron          | Boolean | Default: true. Whether to include reads aligned to the intronic region into the analysis. |
-| main.mtgenes          | String  | Default: auto. Mitochondrial gene list file, auto means to select genes whose gene names are prefixed with mt or MT as mitochondrial genes. |
-| main.clusterdim       | Integer | Default: 20. Number of significant principal components used for dimensionality reduction clustering after PCA dimensionality reduction. |
-| main.doublepercentage | Float   | Default: 0.05. Predict the multicellularity.                 |
-| main.mitpercentage    | Integer | Default: 15. Filter mitochondrial gene ratios.               |
-| main.minfeatures      | Integer | Default: 200. The minimum number of genes a cell contains.   |
-| main. PCusage         | Integer | Default: 50. The number of principal components used for PCA dimensionality reduction. |
-| main.resolution       | Integer | Default: 0.5. Cell clustering resolution. This parameter sets the number of cell populations for downstream clustering, increasing this value can get more clusters. |
-
+| parameter             | type      | description                                                  |
+| --------------------- | --------- | ------------------------------------------------------------ |
+| main.Oligo_type8      | File Path | The path of the oligo library droplet index whitelist information file. |
+| main.Adapter          | File Path | The path of the adapter file.                                |
+| main.expectCellNum    | Integer   | Default: 3000. The expected number of cells, the parameter is valid only when calling_method is emptydrops. |
+| main.calling_method   | String    | Default: emptydrops. The method of cell calling to identify effective beads in droplets, optional barcoderanks and emptydrops. |
+| main.forceCellNum     | Integer   | Default: 0. Intercept the number of beads.                   |
+| main.Intron           | Boolean   | Default: true. Whether to include reads aligned to the intronic region into the analysis. |
+| main.mtgenes          | String    | Default: auto. Mitochondrial gene list file, auto means to select genes whose gene names are prefixed with mt or MT as mitochondrial genes. |
+| main.clusterdim       | Integer   | Default: 20. Number of significant principal components used for dimensionality reduction clustering after PCA dimensionality reduction. |
+| main.doublepercentage | Float     | Default: 0.05. Predict the multicellularity.                 |
+| main.mitpercentage    | Integer   | Default: 15. Filter mitochondrial gene ratios.               |
+| main.minfeatures      | Integer   | Default: 200. The minimum number of genes a cell contains.   |
+| main.PCusage          | Integer   | Default: 50. The number of principal components used for PCA dimensionality reduction. |
+| main.resolution       | Integer   | Default: 0.5. Cell clustering resolution. This parameter sets the number of cell populations for downstream clustering, increasing this value can get more clusters. |
 
 
 ### 1.2 run.sh

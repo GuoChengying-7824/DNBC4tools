@@ -130,3 +130,19 @@ In wdl mode, we confirm which steps have been completed by using the flag file i
 <br />
 <br />
 
+### 4. After the software analysis is completed, what should be paid attention to in the downstream analysis?
+
+In downstream analysis, if you use seurat to read matrix information in R, you can use:
+
+```R
+library(Seurat)
+counts <- Read10X(data.dir = $dir,gene.column = 1)
+```
+
+If you use scanpy to read the matrix, you can use the filter_feature.h5ad file in the output directory, or use the function to read.
+
+For instructions on using the downstream read matrix, refer to [Downstream Analysis](./Downstream_Analysis.md)
+
+<br />
+<br />
+

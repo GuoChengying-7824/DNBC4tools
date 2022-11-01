@@ -6,7 +6,7 @@ We set several parameters to read the structure of the library, including `--che
 
 When using the default parameters, the software automatically recognizes whether a dark reaction was performed and the version of the chemistry. Of course we can also use `--chemistry`, `--darkreaction` to define it. Currently `--chemistry` includes `scRNAv1HT`,`scRNAv2HT`, and `--darkreaction` can set R1 of cDNA and R1R2 of oligo respectively. For example, R1 of cDNA sets a dark reaction, R1 of oligo sets a dark reaction, and R2 does not set a dark reaction, then we can use `--darkreaction R1,R1`. If `--chemistry` and `--darkreaction` still cannot read the library structure, we can use `--customize` to customize the library results. The definition rules of the json file are as follows:
 
-Library structure for version 1.0 chemistry
+Library structure for `scRNAv1HT` chemistry
 
 - cDNA：
 

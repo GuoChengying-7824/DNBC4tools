@@ -146,3 +146,15 @@ For instructions on using the downstream read matrix, refer to [Downstream Analy
 <br />
 <br />
 
+### 5. Why are there multiple sequences in the input file of fastq, and under what circumstances can multiple sequences be analyzed together?
+
+```shell
+DNBC4tools run --cDNAfastq1 cDNA1_R1.fastq.gz,cDNA2_R1.fastq.gz \
+             --cDNAfastq2 cDNA1_R2.fastq.gz,cDNA2_R2.fastq.gz \
+             --oligofastq1 oligo1_1.fq.gz,oligo2_1.fq.gz \
+             --oligofastq2 oligo1_2.fq.gz,oligo2_2.fq.gz \
+             --genomeDir /database/Mouse/mm10/ --gtf /database/Mouse/mm10/genes.gtf \
+             --name test --species Mus_musculus --thread 10
+```
+
+In the above example, there are two sequences in both `--cDNAfastq1` and `--cDNAfastq2`. These two sequences must be the same cDNA library sequence, and multiple sequences may be used on multiple lanes or data addition. The data of different chips cannot be analyzed together, because the cell barcode and umi are random. If you need to merge the data of the two chips, you can use seurat or scanpy to merge the data after software analysis.

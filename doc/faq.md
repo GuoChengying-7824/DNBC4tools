@@ -99,3 +99,7 @@ read 1:R2:1-10,R2:17-26,R2:33-42
 ```
 
 For other sequencing strategies, you can customize the json file and fill in the location according to the location information.
+
+</b>
+
+### 1. How to set parameters in different sequencing strategy modes or chemistry, and how to adapt the software to analysis?

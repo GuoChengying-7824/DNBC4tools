@@ -139,9 +139,9 @@ library(Seurat)
 counts <- Read10X(data.dir = $dir,gene.column = 1)
 ```
 
-If you use scanpy to read the matrix, you can use the filter_feature.h5ad file in the output directory, or use the function to read.
+If you use scanpy to read the matrix, you can use the filter_feature.h5ad file in the output directory.
 
-For instructions on using the downstream read matrix, refer to [Downstream Analysis](./Downstream_Analysis.md)
+For instructions on using the downstream analysis, refer to [Downstream Analysis](./Downstream_Analysis.md)
 
 <br />
 <br />

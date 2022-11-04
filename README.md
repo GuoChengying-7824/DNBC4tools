@@ -9,7 +9,7 @@
 
 ## Introduction
 
-An open source and flexible pipeline to analyze high-throughput DNBelab C Series<sup>TM</sup> single-cell RNA datasets. 
+DNBC4tools is an open source and flexible pipeline to analyze high-throughput DNBelab C Series<sup>TM</sup> single-cell RNA datasets. 
 
 **Hardware/Software requirements** 
 

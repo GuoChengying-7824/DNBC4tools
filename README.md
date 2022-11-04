@@ -19,7 +19,7 @@ An open source and flexible pipeline to analyze high-throughput DNBelab C Series
 
 **Workflow**
  
- <img src="./doc/pipeline.jpg" width="55%">
+ <img src="./doc/pipeline.jpg" width="60%">
 
 ## Start
 

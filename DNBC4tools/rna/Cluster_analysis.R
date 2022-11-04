@@ -196,7 +196,7 @@ if(dim(object.combined)[2] > 50){
   } 
   saveRDS(object.combined,paste0(args$out,"/Clustering/clustering_annotation_object.RDS"))
 }else{
-  cat(paste(",cluster,p_val_adj,p_val,avg_log2FC,pct.1,pct.2","\n",sep=""),file=paste(args$out,"/Clustering/marker.csv",sep=""))
+  cat(paste("gene,cluster,p_val_adj,p_val,avg_log2FC,pct.1,pct.2","\n",sep=""),file=paste(args$out,"/Clustering/marker.csv",sep=""))
   cat(paste(",Cluster,UMAP_1,UMAP_2,nUMI,nGene,Predicted cell type","\n",sep=""),file=paste(args$out,"/Clustering/cluster.csv",sep=""))
   cat(paste("0,0 CellsNum: 0,0,0,0,0,None","\n",sep=""),file=paste(args$out,"/Clustering/cluster.csv",sep=""),append=TRUE)
   cat(paste("Number of cells used for clustering,0", "\n",sep=""),file=paste(args$out,"/Clustering/cell_report.csv",sep=""))

@@ -109,6 +109,35 @@ DNBC4tools run --cDNAfastq1 /test/data/test_cDNA_R1.fastq.gz \
 	--oligofastq1 /test/data/test_oligo1_1.fq.gz,/test/data/test_oligo2_1.fq.gz \
 	--oligofastq2 /test/data/test_oligo1_2.fq.gz,/test/data/test_oligo2_2.fq.gz \
 	--genomeDir /database/Mouse/mm10 --gtf /database/Mouse/mm10/genes.gtf \
-	--name test --species Mouse --thread 10
+	--name test --species Mus_musculus --thread 10
+	
+# set "--expectcells" ,it is recommended to set the expected number of recovered cells according to 50% of the input amount of viable cells (capture efficiency 50%).
+# For example, the input of viable cells is 20,000
+DNBC4tools run --cDNAfastq1 /test/data/test_cDNA_R1.fastq.gz \
+	--cDNAfastq2 /test/data/test_cDNA_R2.fastq.gz \
+	--oligofastq1 /test/data/test_oligo1_1.fq.gz,/test/data/test_oligo2_1.fq.gz \
+	--oligofastq2 /test/data/test_oligo1_2.fq.gz,/test/data/test_oligo2_2.fq.gz \
+	--genomeDir /database/Mouse/mm10 --gtf /database/Mouse/mm10/genes.gtf \
+	--name test --species Mus_musculus --expectcells 10000 --thread 10
+	
+# set "--chemistry" and "--darkreaction" or "--customize", "--customize" has the highest priority
+DNBC4tools run --cDNAfastq1 /test/data/test_cDNA_R1.fastq.gz \
+	--cDNAfastq2 /test/data/test_cDNA_R2.fastq.gz \
+	--oligofastq1 /test/data/test_oligo1_1.fq.gz,/test/data/test_oligo2_1.fq.gz \
+	--oligofastq2 /test/data/test_oligo1_2.fq.gz,/test/data/test_oligo2_2.fq.gz \
+	--genomeDir /database/Mouse/mm10 --gtf /database/Mouse/mm10/genes.gtf \
+	--name test --species Mus_musculus --expectcells 10000 \
+	--customize scRNA_beads_darkReaction.json,scRNA_oligo_darkReaction.json --thread 10
 ```
+
+
+
+**Use the multi command to process multiple samples**
+
+```shell
+DNBC4tools multi --list samplelist \
+         --genomeDir /database/Mouse/mm10/ --gtf /database/Mouse/mm10/genes.gtf \
+         --thread 10
+```
+
 

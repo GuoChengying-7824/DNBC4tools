@@ -32,4 +32,4 @@ An open source and flexible pipeline to analyze high-throughput DNBelab C Series
 ## Support
 
 - Please use github issue tracker for questions. [**issues**](https://github.com/MGI-tech-bioinformatics/DNBelab_C_Series_HT_scRNA-analysis-software/issues)
-- [**docs**](https://dnbc4tools.readthedocs.io)
+- Read the Docs. [**docs**](https://dnbc4tools.readthedocs.io)

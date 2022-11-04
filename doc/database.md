@@ -28,7 +28,7 @@ IG_V_gene	218
 IG_V_pseudogene	158
 TR_V_gene	144
 ```
-***Notice***：you need to check that the GTF file contains gene_biotype or gene_type. For example, the GTF of ensembl, use "--type gene_biotype", the GTF of genecode use "gene_type". 
+***Notice***：you need to check that the GTF file contains gene_biotype or gene_type. For example, the GTF of ensembl, use "--type gene_biotype", the GTF of genecode use "--type gene_type". 
 
 ### **Filter GTF**
 ```shell

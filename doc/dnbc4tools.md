@@ -183,7 +183,7 @@ The analysis parameters are as follows:
 | --outdir         | Directory | The path of the analysis result, the default is the current path. |
 | --thread         | Integer   | The number of processes called when the program is running, the default is 4. |
 | --calling_method | String    | Default: emptydrops. The method of cell calling to identify effective beads in droplets, optional barcoderanks, emptydrops. |
-| --expectcells    | Integer   | Default: 3000. The expected number of cells. The parameter is valid only when calling_method is emptydrops. |
+| --expectcells    | Integer   | Default: 3000. The expected number of cells. The parameter is valid only when calling_method is emptydrops. If set, it is recommended to set the expected number of recovered cells according to 50% of the input amount of viable cells. |
 | --forcecells     | Integer   | Default: 0. The number of beads was intercepted for analysis. |
 | --chemistry      | String    | Default: auto. Chemistry version, it is recommended to obtain the chemistry version automatically. This parameter needs to be used with --darkreaction. Chemistry versions include scRNAv1HT, scRNAv2HT. |
 | --darkreaction   | String    | Default: auto. Dark reaction setting, it is recommended to automatically obtain whether to use dark reaction for sequencing. This parameter needs to be used together with --chemistry. The parameter format is "cDNA, oligo", separated by commas. For example, "R1, R1R2" means that R1 of cDNA uses a dark reaction, and both R1 and R2 of oligo use a dark reaction. Including "R1,R1R2", "R1,R1", "unset,unset", etc. |
